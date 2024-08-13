@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "c": {
+      "item": "ae2:calculation_processor_press"
+    },
+    "q": {
+      "item": "ae2:certus_quartz_crystal"
+    }
+  },
+  "pattern": [
+    "cq"
+  ],
+  "result": {
+    "id": "ae2:printed_calculation_processor"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "s": {
+      "item": "ae2:printed_silicon"
+    },
+    "p": {
+      "item": "ae2:printed_engineering_processor"
+    },
+    "r": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    "sp",
+    "r "
+  ],
+  "result": {
+    "id": "ae2:engineering_processor"
+  }
+}

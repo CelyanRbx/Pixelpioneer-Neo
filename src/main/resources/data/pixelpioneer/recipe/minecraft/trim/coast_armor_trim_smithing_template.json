@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "l": {
+      "item": "minecraft:light_blue_concrete"
+    },
+    "d": {
+      "item": "minecraft:diamond"
+    },
+    "c": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "pattern": [
+    "dld",
+    "dcd",
+    "ddd"
+  ],
+  "result": {
+    "id": "minecraft:coast_armor_trim_smithing_template"
+  }
+}

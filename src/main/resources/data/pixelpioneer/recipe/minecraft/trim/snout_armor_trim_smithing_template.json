@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "s": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "d": {
+      "item": "minecraft:diamond"
+    },
+    "b": {
+      "item": "minecraft:blackstone"
+    }
+  },
+  "pattern": [
+    "dsd",
+    "dbd",
+    "ddd"
+  ],
+  "result": {
+    "id": "minecraft:snout_armor_trim_smithing_template"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "s": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "d": {
+      "item": "minecraft:diamond"
+    },
+    "t": {
+      "item": "minecraft:terracotta"
+    }
+  },
+  "pattern": [
+    "dsd",
+    "dtd",
+    "ddd"
+  ],
+  "result": {
+    "id": "minecraft:wayfinder_armor_trim_smithing_template"
+  }
+}

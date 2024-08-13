@@ -1,0 +1,23 @@
+{
+  "values": [
+    "#pixelpioneer:sapphire_block",
+    "#pixelpioneer:raw_sapphire_block",
+    "#pixelpioneer:ruby_block",
+    "#pixelpioneer:raw_ruby_block",
+    "#pixelpioneer:emerald_block",
+    "#pixelpioneer:raw_emerald_block",
+    "#pixelpioneer:steel_block",
+    "#pixelpioneer:raw_steel_block",
+    "#pixelpioneer:bismuth_block",
+    "#pixelpioneer:ores/sapphire_ore",
+    "#pixelpioneer:ores/deepslate_sapphire_ore",
+    "#pixelpioneer:ores/ruby_ore",
+    "#pixelpioneer:ores/deepslate_ruby_ore",
+    "#pixelpioneer:ores/emerald_ore",
+    "#pixelpioneer:ores/deepslate_emerald_ore",
+    "#pixelpioneer:ores/steel_ore",
+    "#pixelpioneer:ores/deepslate_steel_ore",
+    "#pixelpioneer:ores/bismuth_ore",
+    "#pixelpioneer:ores/deepslate_bismuth_ore"
+  ]
+}

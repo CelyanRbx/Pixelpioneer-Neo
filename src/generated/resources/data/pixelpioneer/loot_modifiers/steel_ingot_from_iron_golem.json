@@ -1,0 +1,10 @@
+{
+  "type": "pixelpioneer:add_item",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "minecraft:entities/iron_golem"
+    }
+  ],
+  "item": "pixelpioneer:steel_ingot"
+}

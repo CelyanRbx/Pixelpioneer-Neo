@@ -1,7 +1,9 @@
 plugins {
     id 'java-library'
+    id 'eclipse'
+    id 'idea'
     id 'maven-publish'
-    id 'net.neoforged.moddev' version '1.0.17'
+    id 'net.neoforged.moddev' version '1.0.14'
 }
 
 tasks.named('wrapper', Wrapper).configure {
@@ -13,15 +15,22 @@ tasks.named('wrapper', Wrapper).configure {
     distributionType = Wrapper.DistributionType.BIN
 }
 
-version = mod_version
-group = mod_group_id
+version = '5.0.5-1.21'
+group = 'fr.celyanrbx.pixelpioneer'
 
 repositories {
     mavenLocal()
+    maven {
+        name 'Blamejared Maven'
+        url 'https://maven.blamejared.com'
+    }
+    maven {
+        url "https://cursemaven.com"
+    }
 }
 
 base {
-    archivesName = mod_id
+    archivesName = 'PixelPioneer'
 }
 
 // Mojang ships Java 21 to end users starting in 1.20.5, so mods should target Java 21.
@@ -118,26 +127,41 @@ dependencies {
     // compileOnly "mezz.jei:jei-${mc_version}-neoforge-api:${jei_version}"
     // We add the full version to localRuntime, not runtimeOnly, so that we do not publish a dependency on it
     // localRuntime "mezz.jei:jei-${mc_version}-neoforge:${jei_version}"
+    // compile against the JEI API but do not include it at runtime
+    //compileOnly "mezz.jei:jei-${mc_version}-common-api:${jei_version}"
+    //compileOnly "mezz.jei:jei-${mc_version}-neoforge-api:${jei_version}"
+    // at runtime, use the full JEI jar for NeoForge
+    //localRuntime "mezz.jei:jei-${mc_version}-neoforge:${jei_version}"
 
-    // Example mod dependency using a mod jar from ./libs with a flat dir repository
-    // This maps to ./libs/coolmod-${mc_version}-${coolmod_version}.jar
-    // The group id is ignored when searching -- in this case, it is "blank"
-    // implementation "blank:coolmod-${mc_version}:${coolmod_version}"
+    implementation ("com.blamejared.crafttweaker:CraftTweaker-neoforge-${mc_version}:${crafttweaker_version}")
 
-    // Example mod dependency using a file as dependency
-    // implementation files("libs/coolmod-${mc_version}-${coolmod_version}.jar")
+    implementation ("curse.maven:applied-energistics-2-223794:5593097")
 
-    // Example project dependency using a sister or child project:
-    // implementation project(":myproject")
-
-    // For more info:
-    // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
-    // http://www.gradle.org/docs/current/userguide/dependency_management.html
+    implementation ("curse.maven:emi-580555:5619579")
 }
+
+
+// Example mod dependency using a mod jar from ./libs with a flat dir repository
+// This maps to ./libs/coolmod-${mc_version}-${coolmod_version}.jar
+// The group id is ignored when searching -- in this case, it is "blank"
+// implementation "blank:coolmod-${mc_version}:${coolmod_version}"
+
+// Example mod dependency using a file as dependency
+// implementation files("libs/coolmod-${mc_version}-${coolmod_version}.jar")
+
+// Example project dependency using a sister or child project:
+// implementation project(":myproject")
+
+// For more info:
+// http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
+// http://www.gradle.org/docs/current/userguide/dependency_management.html
+
 
 // This block of code expands all declared replace properties in the specified resource targets.
 // A missing property will result in an error. Properties are expanded using ${} Groovy notation.
-var generateModMetadata = tasks.register("generateModMetadata", ProcessResources) {
+// When "copyIdeResources" is enabled, this will also run before the game launches in IDE environments.
+// See https://docs.gradle.org/current/dsl/org.gradle.language.jvm.tasks.ProcessResources.html
+tasks.withType(ProcessResources).configureEach {
     var replaceProperties = [
             minecraft_version      : minecraft_version,
             minecraft_version_range: minecraft_version_range,
@@ -152,15 +176,11 @@ var generateModMetadata = tasks.register("generateModMetadata", ProcessResources
             mod_description        : mod_description
     ]
     inputs.properties replaceProperties
-    expand replaceProperties
-    from "src/main/templates"
-    into "build/generated/sources/modMetadata"
+
+    filesMatching(['META-INF/neoforge.mods.toml']) {
+        expand replaceProperties
+    }
 }
-// Include the output of "generateModMetadata" as an input directory for the build
-// this works with both building through Gradle and the IDE.
-sourceSets.main.resources.srcDir generateModMetadata
-// To avoid having to run "generateModMetadata" manually, make it run on every project reload
-neoForge.ideSyncTask generateModMetadata
 
 // Example configuration to allow publishing using the maven-publish plugin
 publishing {
@@ -170,9 +190,6 @@ publishing {
         }
     }
     repositories {
-        maven {
-            url "file://${project.projectDir}/repo"
-        }
     }
 }
 

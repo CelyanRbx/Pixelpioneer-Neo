@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "l": {
+      "item": "ae2:logic_processor_press"
+    },
+    "g": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "pattern": [
+    "lg"
+  ],
+  "result": {
+    "id": "ae2:printed_logic_processor"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "d": {
+      "item": "minecraft:diamond"
+    },
+    "c": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "pattern": [
+    "dad",
+    "dcd",
+    "ddd"
+  ],
+  "result": {
+    "id": "minecraft:vex_armor_trim_smithing_template"
+  }
+}

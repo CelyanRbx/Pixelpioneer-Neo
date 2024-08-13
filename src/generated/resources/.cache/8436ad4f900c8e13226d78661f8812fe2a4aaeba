@@ -1,0 +1,22 @@
+// 1.21	2024-08-13T19:50:15.8711388	Tags for minecraft:block mod id pixelpioneer
+dac53f075531e1f1a176ea45b225121ff00abdb1 data/minecraft/tags/block/mineable/pickaxe.json
+dac53f075531e1f1a176ea45b225121ff00abdb1 data/minecraft/tags/block/needs_iron_tool.json
+2817d11439d8b04d1f035b15db1fde81cbc4fb10 data/pixelpioneer/tags/block/bismuth_block.json
+d79cf9d1b5c31e894269ff46c1b92756ff5b145a data/pixelpioneer/tags/block/emerald_block.json
+cfe0468cee5cbde9ea8a1ecdcdaf9f58974903fc data/pixelpioneer/tags/block/ores/bismuth_ore.json
+e84bb9177d72550106622045f4f8403384f9bfac data/pixelpioneer/tags/block/ores/deepslate_bismuth_ore.json
+e1655106a273fa39ff14eab9f11a947db9a83b20 data/pixelpioneer/tags/block/ores/deepslate_emerald_ore.json
+fdfb74a492859a563c78d69adc58d619a97691c1 data/pixelpioneer/tags/block/ores/deepslate_ruby_ore.json
+93c24599b98b7e673260f2981514c5087838509c data/pixelpioneer/tags/block/ores/deepslate_sapphire_ore.json
+86a5cfc72605186b14c386bec46569023dd02698 data/pixelpioneer/tags/block/ores/deepslate_steel_ore.json
+4f664ea8d43ce5021a7864b359c7301303c150cc data/pixelpioneer/tags/block/ores/emerald_ore.json
+d21e0112f1d34849ad9ee1b8e90efb33405c66fa data/pixelpioneer/tags/block/ores/ruby_ore.json
+5e8450ac8e0ebe1a4f408b15e8f2f33d42d59529 data/pixelpioneer/tags/block/ores/sapphire_ore.json
+878882bcad06cabb7fb83f6df7ea1f45e8066108 data/pixelpioneer/tags/block/ores/steel_ore.json
+2f5046d2b930ca2b31ee70bd608f23b2234cfb6b data/pixelpioneer/tags/block/raw_emerald_block.json
+8f217e39bd1dad032f6bcc592d217685a1a7d7ad data/pixelpioneer/tags/block/raw_ruby_block.json
+f33a21dab62ca5586b60f11cf81e9404b0f08ccd data/pixelpioneer/tags/block/raw_sapphire_block.json
+875d621edb0aa4c0e1b055e5300e03a2a3ae04da data/pixelpioneer/tags/block/raw_steel_block.json
+9b15cd76d1e0314df73bf3edf54c5e8ae125fb61 data/pixelpioneer/tags/block/ruby_block.json
+65ba2d4f339ac707fe53f6577e38112f47afad9e data/pixelpioneer/tags/block/sapphire_block.json
+6c43e92e9f8a09f4e4237339ba34dbe6f23e60c0 data/pixelpioneer/tags/block/steel_block.json

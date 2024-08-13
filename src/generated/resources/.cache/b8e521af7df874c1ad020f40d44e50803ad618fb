@@ -1,0 +1,4 @@
+// 1.21	2024-08-13T18:19:44.2451263	Global Loot Modifiers : pixelpioneer
+e2ac208864ab14f5a5bc00576031c7eb3180709e data/neoforge/loot_modifiers/global_loot_modifiers.json
+35d3a98415c1bb0270892282dfebf85846d1d9e5 data/pixelpioneer/loot_modifiers/steel_ingot_from_igloo_chest.json
+53b24ff765e98f5b56ee448c4063f98dc4feac6a data/pixelpioneer/loot_modifiers/steel_ingot_from_iron_golem.json

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "s": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "d": {
+      "item": "minecraft:diamond"
+    },
+    "c": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "pattern": [
+    "dsd",
+    "dcd",
+    "ddd"
+  ],
+  "result": {
+    "id": "minecraft:sentry_armor_trim_smithing_template"
+  }
+}

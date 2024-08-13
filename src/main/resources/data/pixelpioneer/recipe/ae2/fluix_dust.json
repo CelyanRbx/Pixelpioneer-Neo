@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "f": {
+      "item": "ae2:fluix_crystal"
+    }
+  },
+  "pattern": [
+    "f"
+  ],
+  "result": {
+    "id": "ae2:fluix_dust"
+  }
+}

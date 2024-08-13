@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "minecraft:cobbled_deepslate"
+    },
+    "d": {
+      "item": "minecraft:diamond"
+    },
+    "f": {
+      "item": "minecraft:fire_charge"
+    }
+  },
+  "pattern": [
+    "dfd",
+    "dcd",
+    "ddd"
+  ],
+  "result": {
+    "id": "minecraft:ward_armor_trim_smithing_template"
+  }
+}

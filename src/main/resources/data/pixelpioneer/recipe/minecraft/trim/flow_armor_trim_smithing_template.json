@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "w": {
+      "item": "minecraft:wind_charge"
+    },
+    "d": {
+      "item": "minecraft:diamond"
+    },
+    "b": {
+      "item": "minecraft:breeze_rod"
+    }
+  },
+  "pattern": [
+    "dwd",
+    "dbd",
+    "ddd"
+  ],
+  "result": {
+    "id": "minecraft:flow_armor_trim_smithing_template"
+  }
+}

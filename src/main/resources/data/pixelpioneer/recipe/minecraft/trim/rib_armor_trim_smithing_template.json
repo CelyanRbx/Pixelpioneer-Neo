@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "item": "minecraft:bone_block"
+    },
+    "d": {
+      "item": "minecraft:diamond"
+    },
+    "n": {
+      "item": "minecraft:netherrack"
+    }
+  },
+  "pattern": [
+    "dbd",
+    "dnd",
+    "ddd"
+  ],
+  "result": {
+    "id": "minecraft:rib_armor_trim_smithing_template"
+  }
+}

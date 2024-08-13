@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "s": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "d": {
+      "item": "minecraft:diamond"
+    },
+    "p": {
+      "item": "minecraft:purpur_block"
+    }
+  },
+  "pattern": [
+    "dsd",
+    "dpd",
+    "ddd"
+  ],
+  "result": {
+    "id": "minecraft:spire_armor_trim_smithing_template"
+  }
+}

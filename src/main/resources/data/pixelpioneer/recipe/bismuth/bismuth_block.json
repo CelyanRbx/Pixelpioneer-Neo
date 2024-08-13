@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "item": "pixelpioneer:bismuth"
+    }
+  },
+  "pattern": [
+    "bbb",
+    "bbb",
+    "bbb"
+  ],
+  "result": {
+    "id": "pixelpioneer:bismuth_block"
+  }
+}

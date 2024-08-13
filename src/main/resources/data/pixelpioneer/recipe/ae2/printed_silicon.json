@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "p": {
+      "item": "ae2:silicon_press"
+    },
+    "s": {
+      "item": "ae2:silicon"
+    }
+  },
+  "pattern": [
+    "ps"
+  ],
+  "result": {
+    "id": "ae2:printed_silicon"
+  }
+}
