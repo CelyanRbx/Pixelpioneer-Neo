@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "s": {
+      "item": "minecraft:string"
+    },
+    "a": {
+      "item": "allthemodium:allthemodium_ingot"
+    }
+  },
+  "pattern": [
+    " as",
+    "a s",
+    " as"
+  ],
+  "result": {
+    "id": "allthemodium:allthemodium_bow"
+  }
+}

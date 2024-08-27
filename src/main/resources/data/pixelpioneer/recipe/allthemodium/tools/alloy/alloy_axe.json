@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "s": {
+      "item": "allthemodium:allthemodium_rod"
+    },
+    "a": {
+      "item": "allthemodium:unobtainium_vibranium_alloy_ingot"
+    }
+  },
+  "pattern": [
+    "aa",
+    "as",
+    " s"
+  ],
+  "result": {
+    "id": "allthemodium:alloy_axe"
+  }
+}

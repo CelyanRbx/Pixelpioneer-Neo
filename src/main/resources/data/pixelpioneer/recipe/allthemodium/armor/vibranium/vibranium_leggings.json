@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "v": {
+      "item": "allthemodium:vibranium_ingot"
+    }
+  },
+  "pattern": [
+    "vvv",
+    "v v",
+    "v v"
+  ],
+  "result": {
+    "id": "allthemodium:vibranium_leggings"
+  }
+}

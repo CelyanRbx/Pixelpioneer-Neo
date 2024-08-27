@@ -1,0 +1,15 @@
+{
+  "type": "mekanism:combining",
+  "extra_input": {
+    "count": 1,
+    "item": "allthemodium:vibranium_ingot"
+  },
+  "main_input": {
+    "count": 1,
+    "item": "allthemodium:allthemodium_ingot"
+  },
+  "output": {
+    "count": 2,
+    "id": "allthemodium:vibranium_allthemodium_alloy_ingot"
+  }
+}

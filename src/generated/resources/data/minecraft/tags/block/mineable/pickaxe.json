@@ -18,6 +18,7 @@
     "#pixelpioneer:ores/steel_ore",
     "#pixelpioneer:ores/deepslate_steel_ore",
     "#pixelpioneer:ores/bismuth_ore",
-    "#pixelpioneer:ores/deepslate_bismuth_ore"
+    "#pixelpioneer:ores/deepslate_bismuth_ore",
+    "#pixelpioneer:ores/magic_block_ore"
   ]
 }

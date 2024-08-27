@@ -1,7 +1,7 @@
 package fr.celyanrbx.pixelpioneer.data.texture;
 
 import fr.celyanrbx.pixelpioneer.PixelPioneer;
-import fr.celyanrbx.pixelpioneer.init.BlockInit;
+import fr.celyanrbx.pixelpioneer.block.ModBlocks;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
@@ -16,25 +16,26 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
-        normalBlock(BlockInit.SAPPHIRE_BLOCK.get());
-        normalBlock(BlockInit.RAW_SAPPHIRE_BLOCK.get());
-        normalBlock(BlockInit.RUBY_BLOCK.get());
-        normalBlock(BlockInit.RAW_RUBY_BLOCK.get());
-        normalBlock(BlockInit.EMERALD_BLOCK.get());
-        normalBlock(BlockInit.STEEL_BLOCK.get());
-        normalBlock(BlockInit.RAW_STEEL_BLOCK.get());
-        normalBlock(BlockInit.BISMUTH_BLOCK.get());
-        normalBlock(BlockInit.RAW_EMERALD_BLOCK.get());
-        normalBlock(BlockInit.SAPPHIRE_ORE.get());
-        normalBlock(BlockInit.DEEPSLATE_SAPPHIRE_ORE.get());
-        normalBlock(BlockInit.RUBY_ORE.get());
-        normalBlock(BlockInit.DEEPSLATE_RUBY_ORE.get());
-        normalBlock(BlockInit.EMERALD_ORE.get());
-        normalBlock(BlockInit.DEEPSLATE_EMERALD_ORE.get());
-        normalBlock(BlockInit.STEEL_ORE.get());
-        normalBlock(BlockInit.DEEPSLATE_STEEL_ORE.get());
-        normalBlock(BlockInit.BISMUTH_ORE.get());
-        normalBlock(BlockInit.DEEPSLATE_BISMUTH_ORE.get());
+        normalBlock(ModBlocks.SAPPHIRE_BLOCK.get());
+        normalBlock(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
+        normalBlock(ModBlocks.RUBY_BLOCK.get());
+        normalBlock(ModBlocks.RAW_RUBY_BLOCK.get());
+        normalBlock(ModBlocks.EMERALD_BLOCK.get());
+        normalBlock(ModBlocks.STEEL_BLOCK.get());
+        normalBlock(ModBlocks.RAW_STEEL_BLOCK.get());
+        normalBlock(ModBlocks.BISMUTH_BLOCK.get());
+        normalBlock(ModBlocks.RAW_EMERALD_BLOCK.get());
+        normalBlock(ModBlocks.SAPPHIRE_ORE.get());
+        normalBlock(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get());
+        normalBlock(ModBlocks.RUBY_ORE.get());
+        normalBlock(ModBlocks.DEEPSLATE_RUBY_ORE.get());
+        normalBlock(ModBlocks.EMERALD_ORE.get());
+        normalBlock(ModBlocks.DEEPSLATE_EMERALD_ORE.get());
+        normalBlock(ModBlocks.STEEL_ORE.get());
+        normalBlock(ModBlocks.DEEPSLATE_STEEL_ORE.get());
+        normalBlock(ModBlocks.BISMUTH_ORE.get());
+        normalBlock(ModBlocks.DEEPSLATE_BISMUTH_ORE.get());
+        normalBlock(ModBlocks.MAGIC_BLOCK.get());
     }
 
     private void normalBlock(Block block) {

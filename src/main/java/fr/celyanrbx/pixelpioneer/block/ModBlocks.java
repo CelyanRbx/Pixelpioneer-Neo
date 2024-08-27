@@ -1,6 +1,8 @@
-package fr.celyanrbx.pixelpioneer.init;
+package fr.celyanrbx.pixelpioneer.block;
 
 import fr.celyanrbx.pixelpioneer.PixelPioneer;
+import fr.celyanrbx.pixelpioneer.block.custom.MagicBlock;
+import fr.celyanrbx.pixelpioneer.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -12,7 +14,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 
 import java.util.function.Supplier;
 
-public class BlockInit {
+public class ModBlocks {
     public static DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(PixelPioneer.MOD_ID);
 
     public static final DeferredBlock<Block> SAPPHIRE_BLOCK = registerBlock("sapphire_block", () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK)));
@@ -106,10 +108,13 @@ public class BlockInit {
                     .lightLevel((state) -> 5)
                     .requiresCorrectToolForDrops()));
 
+    public static final DeferredBlock<Block> MAGIC_BLOCK = registerBlock("magic_block",
+            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+
 
     public static DeferredBlock<Block> registerBlock(String name, Supplier<Block> block) {
         DeferredBlock<Block> blockReg = BLOCKS.register(name, block);
-        ItemInit.ITEMS.register(name, () -> new BlockItem(blockReg.get(), new Item.Properties()));
+        ModItems.ITEMS.register(name, () -> new BlockItem(blockReg.get(), new Item.Properties()));
         return blockReg;
     }
 }

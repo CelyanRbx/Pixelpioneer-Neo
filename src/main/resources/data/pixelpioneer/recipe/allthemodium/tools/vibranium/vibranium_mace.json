@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "s": {
+      "item": "allthemodium:vibranium_rod"
+    },
+    "a": {
+      "item": "allthemodium:vibranium_plate"
+    }
+  },
+  "pattern": [
+    "a",
+    "s"
+  ],
+  "result": {
+    "id": "allthemodium:vibranium_mace"
+  }
+}

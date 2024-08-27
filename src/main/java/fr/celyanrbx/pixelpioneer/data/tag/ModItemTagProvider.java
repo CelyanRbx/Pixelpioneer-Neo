@@ -1,7 +1,7 @@
 package fr.celyanrbx.pixelpioneer.data.tag;
 
 import fr.celyanrbx.pixelpioneer.PixelPioneer;
-import fr.celyanrbx.pixelpioneer.init.ItemInit;
+import fr.celyanrbx.pixelpioneer.item.ModItems;
 import fr.celyanrbx.pixelpioneer.init.TagsInit;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -36,20 +36,20 @@ public class ModItemTagProvider extends ItemTagsProvider {
         copy(TagsInit.BlockTagsInit.STEEL_ORE_TAG, TagsInit.ItemTagsInit.STEEL_ORE_TAG);
         copy(TagsInit.BlockTagsInit.DEEPSLATE_STEEL_ORE_TAG, TagsInit.ItemTagsInit.DEEPSLATE_STEEL_ORE_TAG);
 
-        tag(TagsInit.ItemTagsInit.SAPPHIRE_ITEM_TAG).add(ItemInit.SAPPHIRE_INGOT.get());
-        tag(TagsInit.ItemTagsInit.RAW_SAPPHIRE_ITEM_TAG).add(ItemInit.RAW_SAPPHIRE.get());
-        tag(TagsInit.ItemTagsInit.SAPPHIRE_NUGGET_ITEM_TAG).add(ItemInit.SAPPHIRE_NUGGET.get());
-        tag(TagsInit.ItemTagsInit.RUBY_ITEM_TAG).add(ItemInit.RUBY_INGOT.get());
-        tag(TagsInit.ItemTagsInit.RAW_RUBY_ITEM_TAG).add(ItemInit.RAW_RUBY.get());
-        tag(TagsInit.ItemTagsInit.RUBY_NUGGET_ITEM_TAG).add(ItemInit.RUBY_NUGGET.get());
-        tag(TagsInit.ItemTagsInit.EMERALD_ITEM_TAG).add(ItemInit.EMERALD_INGOT.get());
-        tag(TagsInit.ItemTagsInit.RAW_EMERALD_ITEM_TAG).add(ItemInit.RAW_EMERALD.get());
-        tag(TagsInit.ItemTagsInit.EMERALD_NUGGET_ITEM_TAG).add(ItemInit.EMERALD_NUGGET.get());
-        tag(TagsInit.ItemTagsInit.STEEL_ITEM_TAG).add(ItemInit.STEEL_INGOT.get());
-        tag(TagsInit.ItemTagsInit.RAW_STEEL_ITEM_TAG).add(ItemInit.RAW_STEEL.get());
-        tag(TagsInit.ItemTagsInit.STEEL_NUGGET_ITEM_TAG).add(ItemInit.STEEL_NUGGET.get());
-        tag(TagsInit.ItemTagsInit.BISMUTH_ITEM_TAG).add(ItemInit.BISMUTH.get());
-        tag(TagsInit.ItemTagsInit.RAW_BISMUTH_ITEM_TAG).add(ItemInit.RAW_BISMUTH.get());
+        tag(TagsInit.ItemTagsInit.SAPPHIRE_ITEM_TAG).add(ModItems.SAPPHIRE_INGOT.get());
+        tag(TagsInit.ItemTagsInit.RAW_SAPPHIRE_ITEM_TAG).add(ModItems.RAW_SAPPHIRE.get());
+        tag(TagsInit.ItemTagsInit.SAPPHIRE_NUGGET_ITEM_TAG).add(ModItems.SAPPHIRE_NUGGET.get());
+        tag(TagsInit.ItemTagsInit.RUBY_ITEM_TAG).add(ModItems.RUBY_INGOT.get());
+        tag(TagsInit.ItemTagsInit.RAW_RUBY_ITEM_TAG).add(ModItems.RAW_RUBY.get());
+        tag(TagsInit.ItemTagsInit.RUBY_NUGGET_ITEM_TAG).add(ModItems.RUBY_NUGGET.get());
+        tag(TagsInit.ItemTagsInit.EMERALD_ITEM_TAG).add(ModItems.EMERALD_INGOT.get());
+        tag(TagsInit.ItemTagsInit.RAW_EMERALD_ITEM_TAG).add(ModItems.RAW_EMERALD.get());
+        tag(TagsInit.ItemTagsInit.EMERALD_NUGGET_ITEM_TAG).add(ModItems.EMERALD_NUGGET.get());
+        tag(TagsInit.ItemTagsInit.STEEL_ITEM_TAG).add(ModItems.STEEL_INGOT.get());
+        tag(TagsInit.ItemTagsInit.RAW_STEEL_ITEM_TAG).add(ModItems.RAW_STEEL.get());
+        tag(TagsInit.ItemTagsInit.STEEL_NUGGET_ITEM_TAG).add(ModItems.STEEL_NUGGET.get());
+        tag(TagsInit.ItemTagsInit.BISMUTH_ITEM_TAG).add(ModItems.BISMUTH.get());
+        tag(TagsInit.ItemTagsInit.RAW_BISMUTH_ITEM_TAG).add(ModItems.RAW_BISMUTH.get());
 
         // tag(ItemTags.TRIMMABLE_ARMOR)
     }

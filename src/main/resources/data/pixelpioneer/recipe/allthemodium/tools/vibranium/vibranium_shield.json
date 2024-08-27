@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "s": {
+      "item": "minecraft:shield"
+    },
+    "a": {
+      "item": "allthemodium:vibranium_plate"
+    }
+  },
+  "pattern": [
+    "a a",
+    "asa",
+    " a "
+  ],
+  "result": {
+    "id": "allthemodium:vibranium_shield"
+  }
+}

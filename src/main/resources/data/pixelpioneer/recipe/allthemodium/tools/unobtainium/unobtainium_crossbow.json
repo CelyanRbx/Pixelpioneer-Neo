@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "s": {
+      "item": "allthemodium:unobtainium_rod"
+    },
+    "a": {
+      "item": "allthemodium:unobtainium_plate"
+    },
+    "c": {
+      "item": "minecraft:crossbow"
+    },
+    "f": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    "sas",
+    "fcf",
+    " s "
+  ],
+  "result": {
+    "id": "allthemodium:unobtainium_crossbow"
+  }
+}

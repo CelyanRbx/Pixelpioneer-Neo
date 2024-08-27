@@ -1,9 +1,9 @@
 package fr.celyanrbx.pixelpioneer;
 
 import fr.celyanrbx.pixelpioneer.data.DataGenerators;
-import fr.celyanrbx.pixelpioneer.init.BlockInit;
-import fr.celyanrbx.pixelpioneer.init.CreativeModeTabInit;
-import fr.celyanrbx.pixelpioneer.init.ItemInit;
+import fr.celyanrbx.pixelpioneer.block.ModBlocks;
+import fr.celyanrbx.pixelpioneer.item.ModCreativeModeTabs;
+import fr.celyanrbx.pixelpioneer.item.ModItems;
 import fr.celyanrbx.pixelpioneer.init.LootModifierInit;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModList;
@@ -20,9 +20,9 @@ public class PixelPioneer {
 
     public PixelPioneer(@NotNull IEventBus bus) {
 
-        ItemInit.ITEMS.register(bus);
-        BlockInit.BLOCKS.register(bus);
-        CreativeModeTabInit.CREATIVE_MODE_TABS.register(bus);
+        ModItems.ITEMS.register(bus);
+        ModBlocks.BLOCKS.register(bus);
+        ModCreativeModeTabs.CREATIVE_MODE_TABS.register(bus);
         LootModifierInit.LOOT_MODIFIERS.register(bus);
 
         bus.addListener(DataGenerators::gatherData);

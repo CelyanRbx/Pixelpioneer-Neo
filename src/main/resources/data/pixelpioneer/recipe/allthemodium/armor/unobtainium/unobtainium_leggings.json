@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "u": {
+      "item": "allthemodium:unobtainium_ingot"
+    }
+  },
+  "pattern": [
+    "uuu",
+    "u u",
+    "u u"
+  ],
+  "result": {
+    "id": "allthemodium:unobtainium_leggings"
+  }
+}

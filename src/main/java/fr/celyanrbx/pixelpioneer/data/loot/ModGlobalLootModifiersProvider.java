@@ -1,7 +1,7 @@
 package fr.celyanrbx.pixelpioneer.data.loot;
 
 import fr.celyanrbx.pixelpioneer.PixelPioneer;
-import fr.celyanrbx.pixelpioneer.init.ItemInit;
+import fr.celyanrbx.pixelpioneer.item.ModItems;
 import fr.celyanrbx.pixelpioneer.loot.AddItemModifier;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -23,10 +23,10 @@ public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
         add("steel_ingot_from_igloo_chest", new AddItemModifier(new LootItemCondition[]{
                 LootTableIdCondition.builder(ResourceLocation.parse("chests/igloo_chest")).build(),
                 LootItemRandomChanceCondition.randomChance(0.35f).build()},
-                ItemInit.STEEL_INGOT.get()));
+                ModItems.STEEL_INGOT.get()));
 
         add("steel_ingot_from_iron_golem", new AddItemModifier(new LootItemCondition[]{
                 LootTableIdCondition.builder(ResourceLocation.parse("entities/iron_golem")).build()},
-                ItemInit.STEEL_INGOT.get()));
+                ModItems.STEEL_INGOT.get()));
     }
 }

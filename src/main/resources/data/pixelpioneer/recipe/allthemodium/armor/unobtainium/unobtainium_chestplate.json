@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "u": {
+      "item": "allthemodium:unobtainium_ingot"
+    }
+  },
+  "pattern": [
+    "u u",
+    "uuu",
+    "uuu"
+  ],
+  "result": {
+    "id": "allthemodium:unobtainium_chestplate"
+  }
+}

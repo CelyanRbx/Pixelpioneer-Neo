@@ -1,11 +1,13 @@
-package fr.celyanrbx.pixelpioneer.init;
+package fr.celyanrbx.pixelpioneer.item;
 
 import fr.celyanrbx.pixelpioneer.PixelPioneer;
+import fr.celyanrbx.pixelpioneer.item.custom.ChiselItem;
 import net.minecraft.world.item.Item;
+import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
-public class ItemInit {
+public class ModItems {
     public static DeferredRegister.Items ITEMS = DeferredRegister.createItems(PixelPioneer.MOD_ID);
 
     public static final DeferredItem<Item> SAPPHIRE_INGOT = ITEMS.register("sapphire_ingot", () -> new Item(new Item.Properties()));
@@ -22,4 +24,9 @@ public class ItemInit {
     public static final DeferredItem<Item> STEEL_NUGGET = ITEMS.register("steel_nugget", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> BISMUTH = ITEMS.register("bismuth", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> RAW_BISMUTH = ITEMS.register("raw_bismuth", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CHISEL = ITEMS.register("chisel", () -> new ChiselItem(new Item.Properties().durability(32)));
+
+    public static void register(IEventBus eventBus) {
+        ITEMS.register(eventBus);
+    }
 }

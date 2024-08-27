@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "r": {
+      "item": "allthemodium:allthemodium_rod"
+    },
+    "a": {
+      "item": "allthemodium:alloy_axe"
+    },
+    "p": {
+      "item": "allthemodium:alloy_pick"
+    },
+    "s": {
+      "item": "allthemodium:alloy_shovel"
+    }
+  },
+  "pattern": [
+    "pas",
+    " r ",
+    " r "
+  ],
+  "result": {
+    "id": "allthemodium:alloy_paxel"
+  }
+}

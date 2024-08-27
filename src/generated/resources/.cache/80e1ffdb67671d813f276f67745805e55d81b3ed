@@ -1,4 +1,4 @@
-// 1.21	2024-08-13T19:50:15.8631381	Block States: pixelpioneer
+// 1.21	2024-08-27T18:03:38.0588051	Block States: pixelpioneer
 3627e604eefb20d7d33f9028a88790822536d3b9 assets/pixelpioneer/blockstates/bismuth_block.json
 e6a003492186e37282645bc641e03100d0d106ff assets/pixelpioneer/blockstates/bismuth_ore.json
 41e53ada682c6da9ef28922270b0f98d7d17e23b assets/pixelpioneer/blockstates/deepslate_bismuth_ore.json
@@ -8,6 +8,7 @@ e6a003492186e37282645bc641e03100d0d106ff assets/pixelpioneer/blockstates/bismuth
 c339daf38e4ce429ccc8be41f9fe0454863c148c assets/pixelpioneer/blockstates/deepslate_steel_ore.json
 57f5eca7fc430df38eeb63063aca5fb8dc72af2e assets/pixelpioneer/blockstates/emerald_block.json
 c8f07941e1dcd52b91f35f92ea1a44f180dd5efd assets/pixelpioneer/blockstates/emerald_ore.json
+a420682ed7ab0a215a8bb5d814792d91b91db33d assets/pixelpioneer/blockstates/magic_block.json
 d91f1194a70a2fa69b5e0d2704bb02065884a2bb assets/pixelpioneer/blockstates/raw_emerald_block.json
 4fdfc7b99d9fa02a12a1524176a36192b5c4e3f5 assets/pixelpioneer/blockstates/raw_ruby_block.json
 4f1cba26fac9833558f49d05a740f2b54b4ec3cb assets/pixelpioneer/blockstates/raw_sapphire_block.json
@@ -27,6 +28,7 @@ f19b74a7b3e349434f3c50d98417266780dd08dc assets/pixelpioneer/models/block/deepsl
 fbe0b8264e9e3c389fff985b7fe316bb1bd45fd4 assets/pixelpioneer/models/block/deepslate_steel_ore.json
 b0a39794ddeefcfcc288ba7f9f001d2f1fe19e0c assets/pixelpioneer/models/block/emerald_block.json
 02524e64027ad314621223370de32c40244b824b assets/pixelpioneer/models/block/emerald_ore.json
+d68aa35f47938e81e355c106d714a081323c29bf assets/pixelpioneer/models/block/magic_block.json
 f429e110a61249bfb33fa9bade8981aeb778d711 assets/pixelpioneer/models/block/raw_emerald_block.json
 0dd8f9b3ab0e857667aaadd498d92e245b2c0f4d assets/pixelpioneer/models/block/raw_ruby_block.json
 2bd55035b11835243540ff26e52aaf99b67115c5 assets/pixelpioneer/models/block/raw_sapphire_block.json
@@ -46,6 +48,7 @@ bbb95bb94ad0786ab4bb62872392b6f56bf132f3 assets/pixelpioneer/models/item/deepsla
 ad1908365632e5b7af9182c1a43ce6a66c5cd495 assets/pixelpioneer/models/item/deepslate_steel_ore.json
 cbe7bed20ea13d0e21575864febeb3c5c2de79a3 assets/pixelpioneer/models/item/emerald_block.json
 69698cc1fd964c4dcb2600cf9a2dd93b48b1d9c9 assets/pixelpioneer/models/item/emerald_ore.json
+54adc1a4510c4558a76e0dc0b3790f31b8ef7882 assets/pixelpioneer/models/item/magic_block.json
 1c96e2dc4669b7c68c2c3414624fd77c34bd3453 assets/pixelpioneer/models/item/raw_emerald_block.json
 082415dba64814dd5370489805bc9b34bfa5e3f2 assets/pixelpioneer/models/item/raw_ruby_block.json
 cf4343f746ab042cca31ccad716b965cea369d8c assets/pixelpioneer/models/item/raw_sapphire_block.json

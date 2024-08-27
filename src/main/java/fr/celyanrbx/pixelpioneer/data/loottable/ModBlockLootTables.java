@@ -1,8 +1,8 @@
 package fr.celyanrbx.pixelpioneer.data.loottable;
 
 import fr.celyanrbx.pixelpioneer.PixelPioneer;
-import fr.celyanrbx.pixelpioneer.init.BlockInit;
-import fr.celyanrbx.pixelpioneer.init.ItemInit;
+import fr.celyanrbx.pixelpioneer.block.ModBlocks;
+import fr.celyanrbx.pixelpioneer.item.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.loot.BlockLootSubProvider;
@@ -21,26 +21,27 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
-        add(BlockInit.SAPPHIRE_ORE.get(), createOreDrop(BlockInit.SAPPHIRE_ORE.get(), ItemInit.RAW_SAPPHIRE.get()));
-        add(BlockInit.DEEPSLATE_SAPPHIRE_ORE.get(), createOreDrop(BlockInit.DEEPSLATE_SAPPHIRE_ORE.get(), ItemInit.RAW_SAPPHIRE.get()));
-        add(BlockInit.RUBY_ORE.get(), createOreDrop(BlockInit.RUBY_ORE.get(), ItemInit.RAW_RUBY.get()));
-        add(BlockInit.DEEPSLATE_RUBY_ORE.get(), createOreDrop(BlockInit.DEEPSLATE_RUBY_ORE.get(), ItemInit.RAW_RUBY.get()));
-        add(BlockInit.EMERALD_ORE.get(), createOreDrop(BlockInit.EMERALD_ORE.get(), ItemInit.RAW_EMERALD.get()));
-        add(BlockInit.DEEPSLATE_EMERALD_ORE.get(), createOreDrop(BlockInit.DEEPSLATE_EMERALD_ORE.get(), ItemInit.RAW_EMERALD.get()));
-        add(BlockInit.STEEL_ORE.get(), createOreDrop(BlockInit.STEEL_ORE.get(), ItemInit.RAW_STEEL.get()));
-        add(BlockInit.DEEPSLATE_STEEL_ORE.get(), createOreDrop(BlockInit.DEEPSLATE_STEEL_ORE.get(), ItemInit.RAW_STEEL.get()));
-        add(BlockInit.BISMUTH_ORE.get(), createOreDrop(BlockInit.BISMUTH_ORE.get(), ItemInit.RAW_BISMUTH.get()));
-        add(BlockInit.DEEPSLATE_BISMUTH_ORE.get(), createOreDrop(BlockInit.DEEPSLATE_BISMUTH_ORE.get(), ItemInit.RAW_BISMUTH.get()));
+        add(ModBlocks.SAPPHIRE_ORE.get(), createOreDrop(ModBlocks.SAPPHIRE_ORE.get(), ModItems.RAW_SAPPHIRE.get()));
+        add(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get(), createOreDrop(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get(), ModItems.RAW_SAPPHIRE.get()));
+        add(ModBlocks.RUBY_ORE.get(), createOreDrop(ModBlocks.RUBY_ORE.get(), ModItems.RAW_RUBY.get()));
+        add(ModBlocks.DEEPSLATE_RUBY_ORE.get(), createOreDrop(ModBlocks.DEEPSLATE_RUBY_ORE.get(), ModItems.RAW_RUBY.get()));
+        add(ModBlocks.EMERALD_ORE.get(), createOreDrop(ModBlocks.EMERALD_ORE.get(), ModItems.RAW_EMERALD.get()));
+        add(ModBlocks.DEEPSLATE_EMERALD_ORE.get(), createOreDrop(ModBlocks.DEEPSLATE_EMERALD_ORE.get(), ModItems.RAW_EMERALD.get()));
+        add(ModBlocks.STEEL_ORE.get(), createOreDrop(ModBlocks.STEEL_ORE.get(), ModItems.RAW_STEEL.get()));
+        add(ModBlocks.DEEPSLATE_STEEL_ORE.get(), createOreDrop(ModBlocks.DEEPSLATE_STEEL_ORE.get(), ModItems.RAW_STEEL.get()));
+        add(ModBlocks.BISMUTH_ORE.get(), createOreDrop(ModBlocks.BISMUTH_ORE.get(), ModItems.RAW_BISMUTH.get()));
+        add(ModBlocks.DEEPSLATE_BISMUTH_ORE.get(), createOreDrop(ModBlocks.DEEPSLATE_BISMUTH_ORE.get(), ModItems.RAW_BISMUTH.get()));
 
-        dropSelf(BlockInit.SAPPHIRE_BLOCK.get());
-        dropSelf(BlockInit.RAW_SAPPHIRE_BLOCK.get());
-        dropSelf(BlockInit.RUBY_BLOCK.get());
-        dropSelf(BlockInit.RAW_RUBY_BLOCK.get());
-        dropSelf(BlockInit.EMERALD_BLOCK.get());
-        dropSelf(BlockInit.RAW_EMERALD_BLOCK.get());
-        dropSelf(BlockInit.STEEL_BLOCK.get());
-        dropSelf(BlockInit.RAW_STEEL_BLOCK.get());
-        dropSelf(BlockInit.BISMUTH_BLOCK.get());
+        dropSelf(ModBlocks.SAPPHIRE_BLOCK.get());
+        dropSelf(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
+        dropSelf(ModBlocks.RUBY_BLOCK.get());
+        dropSelf(ModBlocks.RAW_RUBY_BLOCK.get());
+        dropSelf(ModBlocks.EMERALD_BLOCK.get());
+        dropSelf(ModBlocks.RAW_EMERALD_BLOCK.get());
+        dropSelf(ModBlocks.STEEL_BLOCK.get());
+        dropSelf(ModBlocks.RAW_STEEL_BLOCK.get());
+        dropSelf(ModBlocks.BISMUTH_BLOCK.get());
+        dropSelf(ModBlocks.MAGIC_BLOCK.get());
     }
 
     @Override

@@ -15,7 +15,7 @@ tasks.named('wrapper', Wrapper).configure {
     distributionType = Wrapper.DistributionType.BIN
 }
 
-version = '5.0.5-1.21'
+version = '5.0.8-1.21'
 group = 'fr.celyanrbx.pixelpioneer'
 
 repositories {
@@ -135,9 +135,17 @@ dependencies {
 
     implementation ("com.blamejared.crafttweaker:CraftTweaker-neoforge-${mc_version}:${crafttweaker_version}")
 
+    implementation ("curse.maven:allthemodium-364466:5609842")
+    implementation ("curse.maven:ato-405593:5553138")
+    implementation ("curse.maven:geckolib-388172:5605715")
+
     implementation ("curse.maven:applied-energistics-2-223794:5593097")
 
-    implementation ("curse.maven:emi-580555:5619579")
+    implementation ("curse.maven:jei-238222:5609864")
+
+    implementation ("curse.maven:mekanism-268560:5574951")
+    implementation ("curse.maven:mekanism-generators-268566:5574954")
+    implementation ("curse.maven:mekanism-tools-268567:5574955")
 }
 
 

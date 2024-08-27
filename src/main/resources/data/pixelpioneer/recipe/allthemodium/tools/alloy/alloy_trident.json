@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "t": {
+      "item": "minecraft:trident"
+    },
+    "a": {
+      "item": "allthemodium:unobtainium_vibranium_alloy_ingot"
+    }
+  },
+  "pattern": [
+    "a",
+    "t",
+    "a"
+  ],
+  "result": {
+    "id": "allthemodium:alloy_trident"
+  }
+}

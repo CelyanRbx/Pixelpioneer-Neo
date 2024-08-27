@@ -1,7 +1,7 @@
 package fr.celyanrbx.pixelpioneer.data.worldgen.ore;
 
 import fr.celyanrbx.pixelpioneer.PixelPioneer;
-import fr.celyanrbx.pixelpioneer.init.BlockInit;
+import fr.celyanrbx.pixelpioneer.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstrapContext;
 import net.minecraft.resources.ResourceKey;
@@ -28,32 +28,32 @@ public class ModConfiguredFeatures {
         RuleTest deepslateReplacable = new TagMatchTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
 
         List<OreConfiguration.TargetBlockState> sapphireOre =
-                List.of(OreConfiguration.target(stoneReplacable, BlockInit.SAPPHIRE_BLOCK.get().defaultBlockState()),
-                        OreConfiguration.target(deepslateReplacable, BlockInit.SAPPHIRE_BLOCK.get().defaultBlockState()));
+                List.of(OreConfiguration.target(stoneReplacable, ModBlocks.SAPPHIRE_BLOCK.get().defaultBlockState()),
+                        OreConfiguration.target(deepslateReplacable, ModBlocks.SAPPHIRE_BLOCK.get().defaultBlockState()));
 
         register(context, OVERWORLD_SAPPHIRE_ORE, Feature.ORE, new OreConfiguration(sapphireOre, 4));
 
         List<OreConfiguration.TargetBlockState> rubyOre =
-                List.of(OreConfiguration.target(stoneReplacable, BlockInit.RUBY_BLOCK.get().defaultBlockState()),
-                        OreConfiguration.target(deepslateReplacable, BlockInit.RUBY_BLOCK.get().defaultBlockState()));
+                List.of(OreConfiguration.target(stoneReplacable, ModBlocks.RUBY_BLOCK.get().defaultBlockState()),
+                        OreConfiguration.target(deepslateReplacable, ModBlocks.RUBY_BLOCK.get().defaultBlockState()));
 
         register(context, OVERWORLD_RUBY_ORE, Feature.ORE, new OreConfiguration(rubyOre, 4));
 
         List<OreConfiguration.TargetBlockState> emeraldOre =
-                List.of(OreConfiguration.target(stoneReplacable, BlockInit.EMERALD_BLOCK.get().defaultBlockState()),
-                        OreConfiguration.target(deepslateReplacable, BlockInit.EMERALD_BLOCK.get().defaultBlockState()));
+                List.of(OreConfiguration.target(stoneReplacable, ModBlocks.EMERALD_BLOCK.get().defaultBlockState()),
+                        OreConfiguration.target(deepslateReplacable, ModBlocks.EMERALD_BLOCK.get().defaultBlockState()));
 
         register(context, OVERWORLD_EMERALD_ORE, Feature.ORE, new OreConfiguration(emeraldOre, 4));
 
         List<OreConfiguration.TargetBlockState> steelOre =
-                List.of(OreConfiguration.target(stoneReplacable, BlockInit.STEEL_BLOCK.get().defaultBlockState()),
-                        OreConfiguration.target(deepslateReplacable, BlockInit.STEEL_BLOCK.get().defaultBlockState()));
+                List.of(OreConfiguration.target(stoneReplacable, ModBlocks.STEEL_BLOCK.get().defaultBlockState()),
+                        OreConfiguration.target(deepslateReplacable, ModBlocks.STEEL_BLOCK.get().defaultBlockState()));
 
         register(context, OVERWORLD_STEEL_ORE, Feature.ORE, new OreConfiguration(steelOre, 4));
 
         List<OreConfiguration.TargetBlockState> bismuthOre =
-                List.of(OreConfiguration.target(stoneReplacable, BlockInit.BISMUTH_BLOCK.get().defaultBlockState()),
-                        OreConfiguration.target(deepslateReplacable, BlockInit.BISMUTH_BLOCK.get().defaultBlockState()));
+                List.of(OreConfiguration.target(stoneReplacable, ModBlocks.BISMUTH_BLOCK.get().defaultBlockState()),
+                        OreConfiguration.target(deepslateReplacable, ModBlocks.BISMUTH_BLOCK.get().defaultBlockState()));
 
         register(context, OVERWORLD_BISMUTH_ORE, Feature.ORE, new OreConfiguration(bismuthOre, 4));
     }

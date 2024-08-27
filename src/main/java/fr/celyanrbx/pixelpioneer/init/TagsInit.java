@@ -67,6 +67,7 @@ public class TagsInit {
         public static final TagKey<Item> DEEPSLATE_STEEL_ORE_TAG = ItemTags.create(createOreLocation("deepslate_steel_ore"));
         public static final TagKey<Item> BISMUTH_ORE_TAG = ItemTags.create(createOreLocation("bismuth_ore"));
         public static final TagKey<Item> DEEPSLATE_BISMUTH_ORE_TAG = ItemTags.create(createOreLocation("deepslate_bismuth_ore"));
+        public static final TagKey<Item> MAGIC_BLOCK_TAG = ItemTags.create(createOreLocation("magic_block"));
     }
 
     public static class BlockTagsInit {
@@ -126,5 +127,8 @@ public class TagsInit {
 
         public static final TagKey<Block> DEEPSLATE_BISMUTH_ORE_TAG =
                 BlockTags.create(createOreLocation("deepslate_bismuth_ore"));
+
+        public static final TagKey<Block> MAGIC_BLOCK_TAG =
+                BlockTags.create(createOreLocation("magic_block_ore"));
     }
 }

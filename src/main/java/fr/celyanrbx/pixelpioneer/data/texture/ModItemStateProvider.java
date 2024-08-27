@@ -1,7 +1,7 @@
 package fr.celyanrbx.pixelpioneer.data.texture;
 
 import fr.celyanrbx.pixelpioneer.PixelPioneer;
-import fr.celyanrbx.pixelpioneer.init.ItemInit;
+import fr.celyanrbx.pixelpioneer.item.ModItems;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.item.Item;
@@ -16,20 +16,21 @@ public class ModItemStateProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
-        item(ItemInit.SAPPHIRE_INGOT.get());
-        item(ItemInit.RAW_SAPPHIRE.get());
-        item(ItemInit.SAPPHIRE_NUGGET.get());
-        item(ItemInit.RUBY_INGOT.get());
-        item(ItemInit.RAW_RUBY.get());
-        item(ItemInit.RUBY_NUGGET.get());
-        item(ItemInit.EMERALD_INGOT.get());
-        item(ItemInit.RAW_EMERALD.get());
-        item(ItemInit.EMERALD_NUGGET.get());
-        item(ItemInit.STEEL_INGOT.get());
-        item(ItemInit.RAW_STEEL.get());
-        item(ItemInit.STEEL_NUGGET.get());
-        item(ItemInit.BISMUTH.get());
-        item(ItemInit.RAW_BISMUTH.get());
+        item(ModItems.SAPPHIRE_INGOT.get());
+        item(ModItems.RAW_SAPPHIRE.get());
+        item(ModItems.SAPPHIRE_NUGGET.get());
+        item(ModItems.RUBY_INGOT.get());
+        item(ModItems.RAW_RUBY.get());
+        item(ModItems.RUBY_NUGGET.get());
+        item(ModItems.EMERALD_INGOT.get());
+        item(ModItems.RAW_EMERALD.get());
+        item(ModItems.EMERALD_NUGGET.get());
+        item(ModItems.STEEL_INGOT.get());
+        item(ModItems.RAW_STEEL.get());
+        item(ModItems.STEEL_NUGGET.get());
+        item(ModItems.BISMUTH.get());
+        item(ModItems.RAW_BISMUTH.get());
+        item(ModItems.CHISEL.get());
     }
 
     private void item(Item item) {

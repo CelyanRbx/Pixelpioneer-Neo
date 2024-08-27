@@ -1,4 +1,4 @@
-// 1.21	2024-08-13T19:50:15.8661393	Loot Tables
+// 1.21	2024-08-27T18:03:38.0638108	Loot Tables
 1dc82c4b4953c8fa0b4ec4ca4dabcbc8fce85952 data/pixelpioneer/loot_table/blocks/bismuth_block.json
 496577e987123ae07bad5de951168fe8e3cbf447 data/pixelpioneer/loot_table/blocks/bismuth_ore.json
 8a0bd12723e5e6b60bcba85826e4981e3ecefc6f data/pixelpioneer/loot_table/blocks/deepslate_bismuth_ore.json
@@ -8,6 +8,7 @@ a623e7012e76a86593181ee17aeb84e3a3d339e0 data/pixelpioneer/loot_table/blocks/dee
 237b128a2f131ef20e7c9d74b4704f9d5e13eb36 data/pixelpioneer/loot_table/blocks/deepslate_steel_ore.json
 b3c3acf5042636337591d28d153cdd004a71f0e6 data/pixelpioneer/loot_table/blocks/emerald_block.json
 876a232ef68480e22db2de3cfb58e15845e81464 data/pixelpioneer/loot_table/blocks/emerald_ore.json
+d75b5a008788bb027325e51415044fcc740e4380 data/pixelpioneer/loot_table/blocks/magic_block.json
 fd415bb62994e44e4e32d6d03346f4e1f1d3230e data/pixelpioneer/loot_table/blocks/raw_emerald_block.json
 9f58f9714d8a73ac40f35003c415aa874c133a15 data/pixelpioneer/loot_table/blocks/raw_ruby_block.json
 02c2aac7b9c1eee5f941b7d157b99607b55cdeae data/pixelpioneer/loot_table/blocks/raw_sapphire_block.json
