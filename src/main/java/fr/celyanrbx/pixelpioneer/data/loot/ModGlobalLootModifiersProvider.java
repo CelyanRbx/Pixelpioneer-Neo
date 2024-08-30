@@ -28,5 +28,9 @@ public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
         add("steel_ingot_from_iron_golem", new AddItemModifier(new LootItemCondition[]{
                 LootTableIdCondition.builder(ResourceLocation.parse("entities/iron_golem")).build()},
                 ModItems.STEEL_INGOT.get()));
+
+        add("starlight_ashes_from_phantom", new AddItemModifier(new LootItemCondition[]{
+                LootTableIdCondition.builder(ResourceLocation.parse("entities/phantom")).build()},
+                ModItems.STARLIGHT_ASHES.get()));
     }
 }

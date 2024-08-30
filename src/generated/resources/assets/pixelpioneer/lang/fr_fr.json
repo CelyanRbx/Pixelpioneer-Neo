@@ -24,6 +24,8 @@
   "item.pixelpioneer.chisel": "Chisel",
   "item.pixelpioneer.emerald_ingot": "Lingot d'Émeraude",
   "item.pixelpioneer.emerald_nugget": "Pépite d'Émeraude",
+  "item.pixelpioneer.frostfire_ice": "Glace de Feu",
+  "item.pixelpioneer.radish": "Radis",
   "item.pixelpioneer.raw_bismuth": "Bismuth Brut",
   "item.pixelpioneer.raw_emerald": "Émeraude Brut",
   "item.pixelpioneer.raw_ruby": "Rubis Brut",
@@ -33,6 +35,7 @@
   "item.pixelpioneer.ruby_nugget": "Pépite de Rubis",
   "item.pixelpioneer.sapphire_ingot": "Lingot de Saphir",
   "item.pixelpioneer.sapphire_nugget": "Pépite de Saphir",
+  "item.pixelpioneer.starlight_ashes": "Cendre de Lumière des Étoiles",
   "item.pixelpioneer.steel_ingot": "Lingot d'Acier",
   "item.pixelpioneer.steel_nugget": "Pépite d'Acier"
 }

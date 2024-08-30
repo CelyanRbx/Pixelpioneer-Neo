@@ -15,7 +15,7 @@ tasks.named('wrapper', Wrapper).configure {
     distributionType = Wrapper.DistributionType.BIN
 }
 
-version = '5.0.8-1.21'
+version = '5.0.9-1.21'
 group = 'fr.celyanrbx.pixelpioneer'
 
 repositories {

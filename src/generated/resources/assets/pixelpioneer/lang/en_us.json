@@ -24,6 +24,8 @@
   "item.pixelpioneer.chisel": "Chisel",
   "item.pixelpioneer.emerald_ingot": "Emerald Ingot",
   "item.pixelpioneer.emerald_nugget": "Emerald Nugget",
+  "item.pixelpioneer.frostfire_ice": "Frostfire Ice",
+  "item.pixelpioneer.radish": "Radish",
   "item.pixelpioneer.raw_bismuth": "Raw Bismuth",
   "item.pixelpioneer.raw_emerald": "Raw Emerald",
   "item.pixelpioneer.raw_ruby": "Raw Ruby",
@@ -33,6 +35,7 @@
   "item.pixelpioneer.ruby_nugget": "Ruby Nugget",
   "item.pixelpioneer.sapphire_ingot": "Sapphire Ingot",
   "item.pixelpioneer.sapphire_nugget": "Sapphire Nugget",
+  "item.pixelpioneer.starlight_ashes": "Starlight Ashes",
   "item.pixelpioneer.steel_ingot": "Steel Ingot",
   "item.pixelpioneer.steel_nugget": "Steel Nugget"
 }

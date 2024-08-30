@@ -31,6 +31,9 @@ public class ModFrLangProvider extends LanguageProvider {
         addItem(ModItems.BISMUTH, "Bismuth");
         addItem(ModItems.RAW_BISMUTH, "Bismuth Brut");
         addItem(ModItems.CHISEL, "Chisel");
+        addItem(ModItems.RADISH, "Radis");
+        addItem(ModItems.FROSTFIRE_ICE, "Glace de Feu");
+        addItem(ModItems.STARLIGHT_ASHES, "Cendre de Lumière des Étoiles");
 
         // Blocks
         addBlock(ModBlocks.SAPPHIRE_BLOCK, "Bloc de Saphir");

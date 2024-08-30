@@ -31,6 +31,9 @@ public class ModEnLangProvider extends LanguageProvider {
         addItem(ModItems.BISMUTH, "Bismuth");
         addItem(ModItems.RAW_BISMUTH, "Raw Bismuth");
         addItem(ModItems.CHISEL, "Chisel");
+        addItem(ModItems.RADISH, "Radish");
+        addItem(ModItems.FROSTFIRE_ICE, "Frostfire Ice");
+        addItem(ModItems.STARLIGHT_ASHES, "Starlight Ashes");
 
         // Blocks
         addBlock(ModBlocks.SAPPHIRE_BLOCK, "Sapphire Block");

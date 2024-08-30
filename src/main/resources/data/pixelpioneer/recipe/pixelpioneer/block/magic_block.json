@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "e": {
+      "item": "minecraft:enchanting_table"
+    },
+    "m": {
+      "item": "minecraft:magenta_concrete"
+    }
+  },
+  "pattern": [
+    "mmm",
+    "mem",
+    "mmm"
+  ],
+  "result": {
+    "id": "pixelpioneer:magic_block"
+  }
+}

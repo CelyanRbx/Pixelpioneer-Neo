@@ -31,6 +31,9 @@ public class ModItemStateProvider extends ItemModelProvider {
         item(ModItems.BISMUTH.get());
         item(ModItems.RAW_BISMUTH.get());
         item(ModItems.CHISEL.get());
+        item(ModItems.RADISH.get());
+        item(ModItems.FROSTFIRE_ICE.get());
+        item(ModItems.STARLIGHT_ASHES.get());
     }
 
     private void item(Item item) {

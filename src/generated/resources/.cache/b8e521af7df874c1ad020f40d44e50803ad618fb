@@ -1,4 +1,5 @@
-// 1.21	2024-08-13T18:19:44.2451263	Global Loot Modifiers : pixelpioneer
-e2ac208864ab14f5a5bc00576031c7eb3180709e data/neoforge/loot_modifiers/global_loot_modifiers.json
+// 1.21	2024-08-30T19:02:08.6002436	Global Loot Modifiers : pixelpioneer
+3ef129d8eb569dbd037c98bd5774d34a7c57c8a9 data/neoforge/loot_modifiers/global_loot_modifiers.json
+06bb70afd0cbecfadd509c5c5ecda520f6b559fa data/pixelpioneer/loot_modifiers/starlight_ashes_from_phantom.json
 35d3a98415c1bb0270892282dfebf85846d1d9e5 data/pixelpioneer/loot_modifiers/steel_ingot_from_igloo_chest.json
 53b24ff765e98f5b56ee448c4063f98dc4feac6a data/pixelpioneer/loot_modifiers/steel_ingot_from_iron_golem.json
