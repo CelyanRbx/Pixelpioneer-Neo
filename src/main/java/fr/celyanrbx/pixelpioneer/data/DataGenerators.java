@@ -1,8 +1,6 @@
 package fr.celyanrbx.pixelpioneer.data;
 
 import fr.celyanrbx.pixelpioneer.PixelPioneer;
-import fr.celyanrbx.pixelpioneer.data.lang.ModEnLangProvider;
-import fr.celyanrbx.pixelpioneer.data.lang.ModFrLangProvider;
 import fr.celyanrbx.pixelpioneer.data.loot.ModGlobalLootModifiersProvider;
 import fr.celyanrbx.pixelpioneer.data.loottable.ModLootTables;
 import fr.celyanrbx.pixelpioneer.data.tag.ModBlockTagsProvider;
@@ -23,8 +21,6 @@ public class DataGenerators {
             PackOutput output = generator.getPackOutput();
             ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
 
-            generator.addProvider(true, new ModEnLangProvider(output));
-            generator.addProvider(true, new ModFrLangProvider(output));
             generator.addProvider(true, new ModItemStateProvider(output, existingFileHelper));
             ModBlockTagsProvider modBlockTagsProvider = new ModBlockTagsProvider(output, event.getLookupProvider(), existingFileHelper);
             generator.addProvider(true, modBlockTagsProvider);

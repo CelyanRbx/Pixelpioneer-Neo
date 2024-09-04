@@ -1,5 +1,6 @@
 {
   "PixelPioneer": "PixelPioneer",
+
   "block.pixelpioneer.bismuth_block": "Bismuth Block",
   "block.pixelpioneer.bismuth_ore": "Bismuth Ore",
   "block.pixelpioneer.deepslate_bismuth_ore": "Deepslate Bismuth Ore",
@@ -20,6 +21,7 @@
   "block.pixelpioneer.sapphire_ore": "Sapphire Ore",
   "block.pixelpioneer.steel_block": "Steel Block",
   "block.pixelpioneer.steel_ore": "Steel Ore",
+
   "item.pixelpioneer.bismuth": "Bismuth",
   "item.pixelpioneer.chisel": "Chisel",
   "item.pixelpioneer.emerald_ingot": "Emerald Ingot",
@@ -37,5 +39,10 @@
   "item.pixelpioneer.sapphire_nugget": "Sapphire Nugget",
   "item.pixelpioneer.starlight_ashes": "Starlight Ashes",
   "item.pixelpioneer.steel_ingot": "Steel Ingot",
-  "item.pixelpioneer.steel_nugget": "Steel Nugget"
+  "item.pixelpioneer.steel_nugget": "Steel Nugget",
+
+  "tooltip.pixelpioneer.magic_block.tooltip": "This Block is very §9MAGICAL§r",
+  "tooltip.pixelpioneer.chisel.shift_down": "This Item can chisel Blocks into Bricks",
+  "tooltip.pixelpioneer.chisel": "Press §eShift§r for more Information",
+  "tooltip.pixelpioneer.radish.tooltip": "Tastes really great!"
 }
